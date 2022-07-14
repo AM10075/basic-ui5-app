@@ -1,0 +1,15 @@
+<mvc:View
+     controllerName="TestApp.controllers.Home"
+     xmlns:mvc="sap.ui.core.mvc"
+     xmlns:layout="sap.ui.layout"
+     xmlns:form="sap.ui.layout.form"
+     xmlns="sap.m"
+     >
+     <Page
+		enableScrolling="true"
+		title="{i18n>TEST}"
+		titleLevel="H2"
+		showFooter="true">
+	</Page>
+     <Button type="Default" press="changeLanguaje" text="LNG:{i18n>alterLenguaje}"/>
+</mvc:View>
