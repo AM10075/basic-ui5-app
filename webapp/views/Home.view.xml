@@ -10,7 +10,7 @@
 		title="{i18n>TEST}"
 		titleLevel="H2"
 		showFooter="true">
-          <Button type="Default" press="nextPage" text="Next"/>
+          <Button type="Default" press="nextPage" text="Next!"/>
      
 	</Page>
 

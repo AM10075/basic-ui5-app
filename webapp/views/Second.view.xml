@@ -10,6 +10,7 @@
 		title="Segunda Pagina"
 		titleLevel="H2"
 		showFooter="true">
+          <Button type="Default" press="onNavBack" text="Go Back!"/>
      
 	</Page>
 
