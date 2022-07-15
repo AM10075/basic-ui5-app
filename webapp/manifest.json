@@ -1,14 +1,14 @@
 {
-        "_version": "1.1.0",
-        "sap.app": {
-                "_version": "1.1.0",
-                "id": "TestApp",
-                "type": "application",
-                "i18n": "i18n/i18n.properties",
-                "title": "{{appTitle}}",
-                "description": "description",
-                "applicationVersion": {
-                        "version": "1.0"
-                }
-        }
+  "_version": "1.1.0",
+  "sap.app": {
+    "_version": "1.1.0",
+    "id": "TestApp",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "title": "{{appTitle}}",
+    "description": "description",
+    "applicationVersion": {
+      "version": "1.0"
+    }
+  }
 }

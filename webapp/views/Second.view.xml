@@ -1,5 +1,5 @@
 <mvc:View
-     controllerName="TestApp.controllers.Home"
+     controllerName="TestApp.controllers.Second"
      xmlns:mvc="sap.ui.core.mvc"
      xmlns:layout="sap.ui.layout"
      xmlns:form="sap.ui.layout.form"
@@ -7,10 +7,9 @@
      >
      <Page
 		enableScrolling="true"
-		title="{i18n>TEST}"
+		title="Segunda Pagina"
 		titleLevel="H2"
 		showFooter="true">
-          <Button type="Default" press="nextPage" text="Next"/>
      
 	</Page>
 

@@ -7,8 +7,13 @@ sap.ui.define(
   function (Controller, MessageToast, ResourceModel) {
     "use strict";
     return Controller.extend("TestApp", {
+      nextPage: function () {
+        var oRouter = this.getOwnerComponent().getRouter();
+        oRouter.navTo("Second");
+      },
       changeLanguaje: function () {
-        let i18nModel = this.getView().getModel("i18n");
+        // let i18nModel = this.getModel("i18n");
+        let i18nModel = this.getView().getModel("i18n"); //Para vista XML
         if (
           i18nModel.getResourceBundle().getText("alterLenguaje") === "Spanish"
         ) {
@@ -27,7 +32,9 @@ sap.ui.define(
           });
         }
 
-        this.getView().setModel(i18nModel, "i18n");
+        // this.setModel(i18nModel, "i18n");
+        this.getView().setModel(i18nModel, "i18n"); //Para vista XML
+
         MessageToast.show(
           i18nModel.getResourceBundle().getText("alterLenguajeChange"),
           {
